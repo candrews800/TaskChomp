@@ -1,0 +1,89 @@
+body{
+	margin: 25px 0 15px 0;
+}
+
+
+#content-wrap{
+	margin-top: 20px;
+}
+
+.bg{
+	background-color: #222222;
+	min-height: 500px;
+}
+
+.login-txt{
+	width: 41%;
+	margin-right: 10px;
+}
+
+.menu-divider{
+	color: #CCCCCC;
+	margin: 0 15px;
+}
+
+.jumbotron{
+	background-image: url('../imgs/bg.jpg');
+}
+
+.mkt-item{
+	margin-bottom: 40px;
+}
+
+.forgot-password{
+	margin-top: 5px;
+}
+
+.forgot-password:hover{
+	text-decoration: underline;
+}
+
+.menu-outer{
+	margin-top: -15px;
+	margin-bottom: 0px;
+	padding-bottom: 0;
+}
+
+.remember{
+	margin-top: 3px;
+	margin-left: 5px;
+}
+
+.logged-in{
+	margin-top: 25px;
+}
+
+.username{
+	text-decoration: underline;
+}
+
+.account-settings-panel{
+	margin-top: 20px;
+}
+
+a.banner{
+	text-decoration: none;
+	color: black;
+}
+
+.settings-back{
+	margin-top: 20px;
+}
+
+.forgot-back{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.forgot-email{
+	width: 80%;
+}
+
+.forgot-email input[type="email"]{
+	width: 65%;
+	margin-left: 10px;
+}
+
+.reset-pw{
+	margin-top: 25px;
+}

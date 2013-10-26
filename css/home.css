@@ -1,0 +1,530 @@
+.missing{
+	margin-top: 20px;
+}
+
+.ui-state-highlight{
+	background-color: rgb(217, 237, 247);
+}
+
+.list-content hr{
+	margin: 0;
+}
+
+.see-more{
+	clear: left;
+	padding-left: 30px;
+	font-size: 10px;
+	margin-bottom: 0;
+	cursor: pointer;
+	color: white;
+	width: 76%;
+}
+
+.alert-dismissable{
+	margin-top: 25px;
+}
+
+.complete .see-more{
+	color: #EEEEEE;
+	text-decoration: none !important;
+}
+
+.see-more:hover{
+	background-color: #DDDDDD;
+}
+
+.item:hover .see-more{
+	color: #999999;
+}
+
+.trash{
+	background-color: #EEEEEE;
+	border-radius: 5px;
+	color: #999999;
+	box-shadow: 1px 1px 2px #666666;
+}
+
+.trash:hover{
+	color: red;
+	box-shadow: 1px 1px 2px #CCCCCC;
+}
+
+.trash:active{
+	box-shadow: none;
+}
+
+.btn-incomplete{
+	color: #999999;
+	box-shadow: 1px 1px 2px #666666;
+}
+
+.btn-incomplete:hover{
+	color: green;
+	box-shadow: 1px 1px 2px #CCCCCC;
+}
+
+.btn-incomplete:active{
+	box-shadow: none;
+}
+
+.item-title.complete, .subitem-title.complete, .category li.complete{
+	color: #999999 !important;
+	text-decoration: line-through;
+}
+
+.edit{
+	display: block;
+}
+
+.lock{
+	display: none;
+}
+
+.panel .list-group {
+  margin: -16px -15px -10px;
+}
+
+.panel .list-group .list-group-item {
+  border-width: 1px 0;
+}
+
+.panel .list-group .list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.panel .list-group .list-group-item:last-child {
+  border-bottom: 0;
+}
+
+/* Categories */
+
+#newCategory input[type="text"]{
+	width: 70%;
+}
+aside{
+	padding-top: 27px;
+}
+
+.categories-header{
+	padding: 3px 5px;
+	color: #DDDDDD;
+	line-height: 18px;
+	background-color: #3a87ad;
+	font-size: 10px;
+	border-radius: 0 0 0 0;
+	margin-bottom: 10px;
+}
+
+.categories-header a{
+	margin-left: 5px;
+	margin-right: 5px;
+	color: white;
+}
+
+.user-categories-wrap{
+	clear: left;
+}
+
+.categories-header span{
+	font-size: 90%;
+}
+
+.categories-user{
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.category{
+	border: 1px solid #3a87ad;
+	border-top: 0;
+}
+
+.category-top{
+	border-top: 1px solid #3a87ad;
+}
+
+.category-header{
+	background-color: #d9edf7;
+	padding: 5px 10px 0 10px;
+	color: #3a87ad;
+}
+
+a:hover .category-header{
+	color: white;
+	background-color: #3a87ad;
+}
+
+.category-header.active{
+	background-color: #3a87ad;
+	color: white;
+}
+
+.category-header.active a{
+	color: white;
+}
+
+.category h3{
+	float: left;
+	padding: 0;
+	margin: 0;
+	margin-right: 25px;
+	margin-bottom: 5px;
+	width: 90%;
+	font-weight: bold;
+}
+
+.category a{
+	color: #3a87ad;
+}
+
+.category-btn{
+	float: right;
+}
+
+.category-edit{
+	float: left;
+	width: 90%;
+	height: 100%;
+	font-size: 20px;
+}
+#category-sortable{
+	list-style-type: none;
+	padding-left: 0;	
+}
+
+#category-sortable li{
+	margin-bottom: 15px;
+}
+
+.list-content{
+	padding: 0 5px 0 10px;
+	clear: both;
+}
+
+.modal-new-list input[type="text"]{
+	width: 85%;
+}
+
+.new-list{
+	margin-top: -5px;
+}
+
+.new-list a{
+	color: white;
+}
+
+.new-list span{
+	font-size: 90%;
+	margin-right: 5px;
+}
+
+.new-list span:hover{
+	text-decoration: none;
+}
+
+.list-content ul{
+	margin-top: 5px;
+	list-style-type: none;
+	padding: 0;
+	font-size: 16px;
+	min-height: 30px;
+	max-height: 200px;
+	overflow-y: auto;
+}
+
+.list-content ul li{
+	margin-bottom: 5px;
+	position: relative;
+}
+
+.list-content .active{
+	font-weight: bold;
+}
+
+.category-list-status{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-size: 12px;
+}
+
+/* Task List + Items */
+
+.tasklist-trash{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 90%;
+}
+
+.tasklist-title, .tasklist-edit{
+	float: left;
+}
+
+.list-header{
+	margin: 0 0 20px 0;
+	height: 40px;
+	position: relative;
+}
+
+.list-header .label{
+	position: absolute;
+	right: 45px;
+	bottom: 1px;
+	font-size: 24px;
+}
+
+.list-header .btn-group .btn{
+	font-size: 18px;
+	padding: 7px 9px 1px 9px;
+}
+
+.list-header .btn-group{
+	margin-top: 1px;
+	padding: 0;
+	border-radius: 5px;
+	margin-top: 3px;
+	box-shadow: 1px 1px 2px #CCCCCC;
+}
+
+.list-header .btn-group:hover{
+	box-shadow: none;
+}
+
+.list-header .options-locked{
+	border: none;
+	color: #999999;
+	background-color: #EEEEEE;
+	border-radius: 5px;
+	margin-top: 3px;
+	box-shadow: 1px 1px 2px #999999;
+}
+
+.list-header .options-locked:hover{
+	box-shadow: 1px 1px 2px #CCCCCC;
+}
+
+.list-header .options-locked:active{
+	box-shadow: none;
+}
+
+.list-header .options{
+	color: #999999;
+}
+
+.list-body{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+/* List Title and Heading */
+
+.tasklist-title{
+	margin: 0;
+	color: #3a87ad;
+	padding: 0;
+	line-height: 50px;
+	width: 68%;
+	cursor: text;
+}
+
+.list-footer{
+	margin-top: -10px;
+	margin-bottom: 10px;
+	background-color: white;
+	padding: 10px 10px;
+	border: 1px solid #3a87ad;
+	border-top: 0;
+}
+
+.list-footer.no-items{
+	border: 1px solid #3a87ad;
+}
+
+.list-footer .item-num{
+	margin-top: 11px;
+	margin-left: 0px;
+}
+
+.list-footer input[type="text"], .list-footer input[type="text"]:focus{
+	outline: none;
+	outline: 0;
+	border: none;
+	box-shadow: none;
+	padding: 0;
+	background-color: white;
+	margin-left: -5px;
+	color: #3a87ad;
+}
+
+/* List Items */
+
+.item{
+	font-size: 18px;
+	border: 1px solid #3a87ad;
+	border-top: 0;
+	padding: 10px;
+	padding-bottom: 0px;
+	position: relative;
+	color: #3a87ad;
+	background-color: #FFFFFF;
+}
+
+.item-border{
+	border: 1px solid #3a87ad;
+}
+
+.item.complete{
+	background-color: #EEEEEE;
+}
+
+.item-top{
+	border-top: 1px solid #3a87ad;
+}
+
+.item-alpha{
+	border-radius: 10px 0 0 0;
+}
+
+
+.item-num{
+	padding: 0 5px;
+	font-weight: bold;
+	margin-right: 10px;
+	float: left;
+}
+
+.item-title{
+	float: left;
+	width: 72%;
+	cursor: text;
+	margin-bottom: 5px;
+}
+
+.item-actions{
+	float: right;
+	margin-bottom: 5px;
+}
+
+.item-trash a{
+	font-size: 12px;
+	height: 90%;
+	padding: 5px 8px;
+	margin-left: 10px;
+}
+
+.item-new{
+	width: 80%;
+	font-size: 18px;
+}
+
+.item-editor{
+	margin-top: -15px;
+	border: 1px solid black;
+}
+
+.item input[type="text"], .item input[type="text"]:focus{
+	margin-left: -3px;
+	outline: none;
+	outline: 0;
+	border: none;
+	box-shadow: none;
+	padding: 0;
+	background-color: white;
+	color: #3a87ad;
+}
+
+.item:hover input[type="text"], .item:hover input[type="text"]:focus{
+	background-color: #EEEEEE;
+	color: #3a87ad;
+}
+
+.grab-texture{
+	width: 5px;
+	height: 86%;
+	position: absolute;
+	left: 2px;
+	top: 7%;
+	background-image:url('../imgs/grab-texture.png');
+	background-color: transparent;
+	cursor: move;
+	display: none;
+}
+
+.item:hover .grab-texture{
+	display: block;
+}
+
+/* List Sub Items */
+
+.subitems{
+	clear: both;
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 3px;
+	margin-left: 25px;
+	font-size: 14px;
+}
+
+.item:hover{
+	background-color: #EEEEEE;
+}
+
+.subitem-trash a{
+	margin-left: 10px;
+	font-size: 12px;
+	padding: 4px 8px;
+}
+
+.subitem-num{
+	float: left;
+	font-weight: bold;
+	margin-right: 10px;
+	border-radius: 5px;
+	padding: 0 5px;
+	cursor: move;
+}
+
+.subitem-title{
+	float: left;
+	width: 73%;
+	margin-bottom: 5px;
+	cursor: text;
+}
+
+.subitem-actions{
+	float: right;
+	margin-bottom: 5px;
+}
+
+.subitem-new{
+	width: 80%;
+	padding: 0;
+}
+
+.subitem-form .subitem-num{
+	font-size: 10px;
+	margin-top: 12px;
+}
+
+.subitem-form{
+	margin-top: -3px;
+	margin-bottom: 2px;
+}
+
+.subitem input[type="text"], .subitem input[type="text"]:focus{
+	outline: none;
+	outline: 0;
+	border: none;
+	box-shadow: none;
+	padding: 0;
+}
+
+.grey{
+	color: #AAAAAA !important;
+}
+
+.complete .subitem input[type="text"], .complete .subitem input[type="text"]:focus{
+	background-color: #EEEEEE;
+}
